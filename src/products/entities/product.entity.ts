@@ -15,6 +15,7 @@ constructor(
     public price: number, 
     public description? : String
 ){}
+
 updateWith({name, description, price}: updateWithOptions){
 this.name = name?? this.name;
 this.description = description?? this.description;
